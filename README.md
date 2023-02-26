@@ -9,3 +9,7 @@ https://supabase.com/docs/guides/cli/local-development
 
 ## Default migrations
 Several migrations are run by default to build a basic app. This includes functions to create a profile table, insert on new user creation, RLS on user avatars.
+
+## Manual configuration
+1. Ensure email confirmations are disabled for account creation
+2. Configure email templates to use codes instead of links
